@@ -1,0 +1,37 @@
+body , html
+    {
+        height: 100%;
+        overflow: hidden;
+    }
+
+*
+    {
+        box-sizing: border-box;
+        margin: 0px;
+        padding: 0px;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+
+.bg-image
+    {
+        background-image: url("images/ocean.png");
+        height: 100%;
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        filter: blur(10px);
+    }
+
+.bg-text
+    {
+        color: #ffffff;
+        font-weight: bold;
+        position: absolute;
+        top: 20%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        z-index: 1;
+        width: 60%;
+        text-align: center;
+        padding: 20px;
+    }
