@@ -43,7 +43,8 @@ li, a, button
     {
         cursor: pointer;
         margin-right: auto;
-        max-inline-size: 8%;
+        height: 35px;
+        width: auto;
     }
 
 .nav_links li
@@ -82,14 +83,14 @@ button:hover
 /* Content */
 .content
     {
-        max-width: 30%;
+        width: 40%;
         text-align: center;
         position: relative;
         top: 10%;
-        left: 55%;
+        left: 50%;
         padding: 20px;
         font-weight: 500;
-        font-size: 20px;
+        font-size: 22px;
         color: #ffffff;
         text-decoration: none;
         text-shadow: black 1px 0px 10px;
