@@ -7,7 +7,7 @@ body , html
     {
         height: 100%;
         overflow: hidden;
-        background: url("images/lindesnes.jpg");
+        background: url("images/lindesnes.png");
         background-size: cover;
         background-position: center;
     }
@@ -31,20 +31,20 @@ header
         background-color: rgba(0, 0, 0, 0.3);
     }
 
-li, a, button
-    {
-        font-weight: 500;
-        font-size: 20px;
-        color: #ffffff;
-        text-decoration: none;
-    }
-
 .logo
     {
         cursor: pointer;
         margin-right: auto;
         height: 35px;
         width: auto;
+    }
+
+li, a, button
+    {
+        font-weight: 500;
+        font-size: 20px;
+        color: #ffffff;
+        text-decoration: none;
     }
 
 .nav_links li
@@ -61,22 +61,6 @@ li, a, button
 .nav_links li a:hover
     {
         color: rgb(100, 200, 255);
-    }
-
-button
-    {
-        margin-left: 20px;
-        padding: 10px 25px;
-        background-color: rgba(0,136,169,0);
-        border: none;
-        border-radius: 50px;
-        cursor: pointer;
-        transition: all 0.3s ease 0s;
-    }
-
-button:hover
-    {
-        background-color: rgba(0,136,169,1);
     }
 
 
