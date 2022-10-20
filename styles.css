@@ -3,79 +3,69 @@
 
 
 /* General */
-body , html
-    {
-        height: 100%;
-        overflow: hidden;
-        background: url("images/lindesnes.png");
-        background-size: cover;
-        background-position: center;
-    }
+* {
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+    font-family: "Montserrat", sans-serif;
+}
 
-*
-    {
-        box-sizing: border-box;
-        margin: 0px;
-        padding: 0px;
-        font-family: "Montserrat", sans-serif;
-    }
+body {
+    overflow: auto;
+}
+
+body , html {
+    height: 100%;
+    background: url("images/lindesnes.png");
+    background-size: auto;
+    background-position: center;
+}
 
 
 /* Navigation Bar */
-header
-    {
-        display: flex;
-        justify-content: space-between;
-        align-items: center;
-        padding: 30px 10%;
-        background-color: rgba(0, 0, 0, 0.3);
-    }
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 10%;
+    background-color: rgba(0, 0, 0, 0.3);
+}
 
-.logo
-    {
-        cursor: pointer;
-        margin-right: auto;
-        height: 50px;
-        width: auto;
-    }
+.logo {
+    cursor: pointer;
+    margin-right: auto;
+    height: 50px;
+    width: auto;
+}
 
-li, a, button
-    {
-        font-weight: 500;
-        font-size: 20px;
-        color: #ffffff;
-        text-decoration: none;
-    }
+li, a, button {
+    font-weight: 500;
+    font-size: 20px;
+    color: #ffffff;
+    text-decoration: none;
+}
 
-.nav_links li
-    {
-        display: inline-block;
-        padding: 0px 20px;
-    }
+.nav_links li {
+    display: inline-block;
+    padding: 0px 20px;
+}
 
-.nav_links li a
-    {
-        transition: all 0.3s ease 0s;
-    }
+.nav_links li a {
+    transition: all 0.3s ease 0s;
+}
 
-.nav_links li a:hover
-    {
-        color: rgb(100, 200, 255);
-    }
+.nav_links li a:hover {
+    color: rgb(100, 200, 255);
+}
 
 
 /* Content */
-#content
-    {
-        width: 40%;
-        text-align: center;
-        position: relative;
-        top: 5%;
-        left: 50%;
-        margin: 20px;
-        font-weight: 500;
-        font-size: 20px;
-        color: #ffffff;
-        text-decoration: none;
-        text-shadow: black 1px 0px 10px;
-    }
+#content {
+    position: relative;
+    margin: 100px;
+    font-weight: 500;
+    font-size: 20px;
+    color: #ffffff;
+    text-decoration: none;
+    text-shadow: black 1px 0px 10px;
+}
